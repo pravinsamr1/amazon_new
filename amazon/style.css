@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 10px 10px;
+    flex: 1;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.dlivery{
+    display: flex;
+    cursor: pointer;
+}
+
+.deliverytext {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.dlivery:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.fa-location-dot{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.input-box{
+    display: flex;
+    height: 50px;
+    width: 700px;
+    margin-top: 5px;
+}
+
+.inputall{
+    padding: 10px 20px;
+    background-color: rgb(214, 211, 211);
+    color: black;
+    border-radius: 10px 0px 0px 10px;
+}
+.input-box input{
+    padding: 20px;
+    width: 700px;
+    height: 40px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-box i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box p{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    height: 43px;
+}
+
+.fa-magnifying-glass{
+    padding: 20px;
+    display: flex;
+    background-color: rgb(244, 189, 87);
+    color: black;
+    border-radius: 0px 10px 10px 0px;
+    height: 43px;
+}
+
+.flag{
+    display: flex;
+    margin-top: 20px;
+}
+.flag:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.flag img{
+    margin-top: 3px
+}
+.flag p{
+    margin-left: 3px;
+}
+.fa-caret-down{
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.hello{
+    font-size: 13px;
+    margin-top: 8px;
+}
+.return{
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.cart{
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.cart p{
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.fa-cart-shopping{
+    font-size: 30px;
+    margin-top: 3px;
+}
+
+
+
+/* This is the head 1 css */
+
+.head1{
+    background-color: rgb(3, 3, 47);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 13px;
+    height: 50px;
+    align-items: center;
+    flex: 1;
+
+}
+.head1 p:hover{
+    border: 1px solid whitesmoke;
+}
+.all{
+    display: flex;
+    align-items: center;
+}
+.fa-bars{
+    margin-right: 3px;
+}
+
+
+
+.backgroundpic {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: absolute;
+    top: 350px;
+}
+
+
+.router{
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    
+}
+.router h1{
+    font-size: 20px;
+}
+
+.router2{
+    width: 300px;
+    background-color: white;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.router2 h1{
+    font-size: 20px;
+}
+.router2 p{
+    font-size: 12px;
+}
+
+.router3{
+    width: 350px;
+    background-color: white;
+    margin-left: 25px;
+    padding: 20px;
+}
+
+.router3 h1{
+    font-size: 20px;
+}
+
+
+.router4{
+    width: 380px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.router4 h1{
+    font-size: 20px;
+}
+
+.router4 a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.router4 p{
+    margin-top: 10px;
+}
+
+.rou1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 10px;
+    /* background-color: antiquewhite; */
+    padding: 10px;
+}
+
+.rou2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.prime{
+    margin-top: 120px;
+    margin-left: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.explore{
+    margin-top: 20px;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+.toexplore h1{
+    font-size: 23px;
+    
+}
+
+.toexplore{
+    padding: 20px;
+    width: 320px;
+    margin-left: 20px;
+    background-color: #fff;
+
+}
+
+.international{
+    padding: 20px;
+    background-color: #fff;
+    margin-left: 20px;
+
+}
+
+.international h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: rgb(3, 3, 47);
+    color: #fff;
+    padding: 20px 200px;
+}
+
+footer p{
+    font-size: 12px;
+}
